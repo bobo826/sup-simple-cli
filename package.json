@@ -1,0 +1,21 @@
+{
+  "name": "sup-simple-cli",
+  "version": "1.0.0",
+  "description": "cli",
+  "main": "index.js",
+  "repository": "https://github.com/bobo826/sup-simple-cli.git",
+  "author": "张博 <zhangbo@tinman.cn>",
+  "license": "MIT",
+  "scripts": {
+    "scion": "node bin/scion"
+  },
+  "bin": {
+    "scion": "bin/scion"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.9.0"
+  }
+}
